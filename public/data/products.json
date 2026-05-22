@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Remera Oversize",
+    "description": "Remera de algodón peinado premium con corte suelto y cómodo.",
+    "price": 14900,
+    "image": "/img/remera.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sandalias",
+    "description": "Calzado de cuero reforzada ideal para el uso diario y caminatas.",
+    "price": 59990,
+    "image": "/img/sandalias.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mochila Impermeable",
+    "description": "Mochila con compartimiento acolchado para notebook de hasta 15 pulgadas.",
+    "price": 42550,
+    "image": "/img/mochila.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gorra",
+    "description": "Gorra de naranja brillante con ajustable de tela en la parte posterior",
+    "price": 11200,
+    "image": "/img/gorra.jpg"
+  }
+]
