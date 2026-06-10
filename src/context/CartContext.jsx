@@ -45,7 +45,7 @@ export const CartProvider = ({children}) => {
     };
 
     const checkout = () => {
-        const chequear = window.confirm("¿...?");        
+        const chequear = window.confirm("¿Finalizará la compra?");        
         if (chequear) {
             clearCart();
         return;
@@ -53,7 +53,7 @@ export const CartProvider = ({children}) => {
         navigate("/");
     };
 
-    const values = {clearCart, addItem, removeItem, getTotalItems, getCartTotal, checkout}
+    const values = {clearCart, addItem, removeItem, getTotalItems, getCartTotal, checkout, cart}
     return <CartContext.Provider value={values}>
         {children}
     </CartContext.Provider>;

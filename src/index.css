@@ -94,18 +94,33 @@ h2 {
 p {
   margin: 0;
 }
-
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+.bg-succes {
+  background-color: green;
 }
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.bg-delete {
+  background-color: red;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: blue;
+}
+.btn:disabled {
+  background-color:slategrey;
+}
+.btn-link {
+  background-color:rgba(192, 132, 252, 0.5);
+}
+button {
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }

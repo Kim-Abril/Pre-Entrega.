@@ -11,3 +11,17 @@
     text-decoration: none;
     color: blueviolet;
 }
+.incart {
+    background-color: red;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
