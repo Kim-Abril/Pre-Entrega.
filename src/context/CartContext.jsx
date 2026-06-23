@@ -45,7 +45,7 @@ export const CartProvider = ({children}) => {
     };
 
     const checkout = () => {
-        const chequear = window.confirm("¿Finalizará la compra?");        
+        const chequear = window.confirm("¿Finalizar compra?");        
         if (chequear) {
             clearCart();
         return;

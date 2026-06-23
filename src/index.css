@@ -94,6 +94,9 @@ h2 {
 p {
   margin: 0;
 }
+button {
+  font-size: 1rem;
+}
 .bg-succes {
   background-color: green;
 }
@@ -107,16 +110,14 @@ p {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: blue;
+  background-color: rgba(71, 71, 249, 0.307);
 }
 .btn:disabled {
   background-color:slategrey;
 }
 .btn-link {
   background-color:rgba(192, 132, 252, 0.5);
-}
-button {
-  font-size: 1rem;
+  color: rgb(223, 200, 246);
 }
 ul {
   list-style: none;
